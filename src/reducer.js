@@ -3,7 +3,7 @@
 // - не вызывать побочных эфектов
 
 const initState = {
-    value: 0
+    counter: 0
   };
 
 const reducer = (state = initState, action)=>{
@@ -13,19 +13,19 @@ const reducer = (state = initState, action)=>{
        case 'INC':
          return {
            ...state, 
-           value: state.value + 1
+           counter: state.counter + 1
          };     
       
        case 'DEC':
          return {
            ...state, 
-           value: state.value - 1
+           counter: state.counter - 1
          };     
          
        case 'RND':        
          return{
          ...state,        
-         value: state.value * action.payload
+         counter: state.counter * action.payload
        };            
  
        default:
