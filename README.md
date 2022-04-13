@@ -1,3 +1,7 @@
+My first project with React + redux
+
+On this project we've lerned controling memory - and parts of Redux (Store, View and Actions)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
